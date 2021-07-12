@@ -6,9 +6,9 @@
 </head>
 <body>
 <script>
-    let notes = null;
-    let books = "2";
-    let pen = undefined;
+    const notes = null;
+    const books = "2";
+    const pen = undefined;
     alert(  null || 2 || undefined );
 
     alert( alert('Home alone') || 'part 1' || alert(3) );
@@ -28,9 +28,9 @@
     }
 
     let login = prompt ("Кто там?", "");
-    if (login == "Админ"){
+    if (login === "Админ"){
         let pass = prompt("Пароль?", "");
-        if (pass == "Я главный"){
+        if (pass === "Я главный"){
             alert("Здравствуйте!");
         }else if (pass == null){
             alert("Отменено");
@@ -44,7 +44,7 @@
     }
     if (-1 || 0) alert( '1' );
     if (-1 && 0) alert( '2' );
-    if (null || -1 && 1) alert( '3' );
+    if (-1 && 1) alert( '3' );
 
 </script>
 </body>
