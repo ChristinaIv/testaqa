@@ -22,7 +22,7 @@
     while (d++ < 5) alert( d );
 
     for (let e = 2; e <= 10; e++) {
-        if (e % 2 == 0) {
+        if (e % 2 === 0) {
             alert( e );
         }
     }
@@ -46,7 +46,7 @@
         if(s>1) for (let j = s; j > 1; j--) {
             if (s % j == 0 && j != s) {
                 break;
-            } else if (j == 2) {
+            } else if (j === 2) {
                 alert(s);
             }
         }
