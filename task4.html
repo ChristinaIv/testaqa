@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = 12;
+    while (a > 9) alert(a--);
+
+    let b = 11;
+    do {
+        alert( b );
+        b--;
+    } while (b > 9);
+
+    let c = 0;
+    while (++c < 5) alert( c );
+
+    let d = 0;
+    while (d++ < 5) alert( d );
+
+    for (let e = 2; e <= 10; e++) {
+        if (e % 2 === 0) {
+            alert( e );
+        }
+    }
+
+    let f = 0;
+    while (f < 3) {
+        alert(`число ${i}`);
+        f++;
+    }
+
+    let num;
+
+    do {
+        num = prompt('Введите число, больше 100!', 0);
+    } while (num <= 100 && num);
+
+    let start = 2;
+    let end = 16;
+
+    for(let s = start; s<=end; s++){
+        if(s>1) for (let j = s; j > 1; j--) {
+            if (s % j == 0 && j != s) {
+                break;
+            } else if (j === 2) {
+                alert(s);
+            }
+        }
+        }
+
+
+
+
+</script>
+</body>
+</html>
