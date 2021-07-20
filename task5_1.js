@@ -1,14 +1,14 @@
-let arr = ['One', 'two', 'three'];
-let str = arr.join(',');
+const arr = ['One', 'two', 'three'];
+const str = arr.join(',');
 console.log(str);      // массив в строку
 
-let str = 'One,two,three';
-let arr = str.split(',');
+const str = 'One,two,three';
+const arr = str.split(',');
 console.log(arr); // строка в массив
 
-let array = ["1", "2", "3"],
-    object = Object.assign(...array.map(k => ({ [k]: true })));  // числовой массив в boolean??? непонятно
 
-let array = ["1","2","3"];
-let secondarray = (Boolean(array)) ;
+const array = ["1","2","3"];
+const secondarray = (Boolean(array)) ;
 console.log (typeof (secondarray));
+
+const arr = [1,2,3,4,5,6].map((e, i, arr) => { return Boolean (e)};

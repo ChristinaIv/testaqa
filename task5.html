@@ -6,15 +6,15 @@
 </head>
 <body>
 <script>
-    let books = ['Fantasy', 'Detective', 'Since Fiction'];
+    const books = ['Fantasy', 'Detective', 'Since Fiction'];
 
-    let shoppingCart = fruits;
+    const shoppingCart = fruits;
 
     shoppingCart.push('Comics');
 
     alert( books.length );                // кол-во элементов,длина строки
 
-    let arr = ['Apple', 'Melon', 'Peach'];
+    const arr = ['Apple', 'Melon', 'Peach'];
 
     arr.forEach(function(item, i, arr) {
         alert( `${i} : ${item} (массив:${arr})` );
@@ -29,6 +29,7 @@
         alert( `${item} hello!` );
     });                                            //  к каждому элементу массива hello
 
+[`Alex`,'Max','Nick'].map(item) => { return `${item} hello!`})
 
 </script>
 
