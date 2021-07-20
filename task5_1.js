@@ -11,4 +11,4 @@ const array = ["1","2","3"];
 const secondarray = (Boolean(array)) ;
 console.log (typeof (secondarray));
 
-const arr = [1,2,3,4,5,6].map((e, i, arr) => { return Boolean (e)};
+[1,2,3,4,5,6].map((e, i, arr) => { return Boolean (e)};
