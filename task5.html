@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    const books = ['Fantasy', 'Detective', 'Since Fiction'];
+
+    const shoppingCart = fruits;
+
+    shoppingCart.push('Comics');
+
+    alert( books.length );                // кол-во элементов,длина строки
+
+    const arr = ['Apple', 'Melon', 'Peach'];
+
+    arr.forEach(function(item, i, arr) {
+        alert( `${i} : ${item} (массив:${arr})` );
+    });
+
+    ['TV', 'Computer', 'Phone'].forEach((item, index, array) => {
+        alert(`${item} имеет позицию ${index} в ${array}`);
+    });                                                 // Перебор массива с выводом в консоль кажого элемента
+
+
+ ['Mam', 'Dad', 'Bro'].forEach((item, i, arr) => {
+        alert( `${item} hello!` );
+    });                                            //  к каждому элементу массива hello
+
+[`Alex`,'Max','Nick'].map(item) => { return `${item} hello!`})
+
+</script>
+
+
+</body>
+</html>
